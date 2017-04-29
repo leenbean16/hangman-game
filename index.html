@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Finger+Paint" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>hangman</title>
+  </head>
+  <body>
+    <h1 class="centerit">Hangman</h1>
+    <p class="centerit">Art Edition.</p>
+
+<div class="row">
+	<div class="centerit letterchoices">
+		<div class="buttons">
+		  <button class="letterchoice" onclick="letterClicked('A', this);">A</button>
+		  <button class="letterchoice" onclick="letterClicked('B', this);">B</button>
+		  <button class="letterchoice" onclick="letterClicked('C', this);">C</button>
+		  <button class="letterchoice" onclick="letterClicked('D', this);">D</button>
+		  <button class="letterchoice" onclick="letterClicked('E', this);">E</button>
+		  <button class="letterchoice" onclick="letterClicked('F', this);">F</button>
+		  <button class="letterchoice" onclick="letterClicked('G', this);">G</button>
+		  <button class="letterchoice" onclick="letterClicked('H', this);">H</button>
+		  <button class="letterchoice" onclick="letterClicked('I', this);">I</button>
+		  <button class="letterchoice" onclick="letterClicked('J', this);">J</button>
+		  <button class="letterchoice" onclick="letterClicked('K', this);">K</button>
+		  <button class="letterchoice" onclick="letterClicked('L', this);">L</button>
+		  <button class="letterchoice" onclick="letterClicked('M', this);">M</button>
+		  <br>
+		  <button class="letterchoice" onclick="letterClicked('N', this);">N</button>
+		  <button class="letterchoice" onclick="letterClicked('O', this);">O</button>
+		  <button class="letterchoice" onclick="letterClicked('P', this);">P</button>
+		  <button class="letterchoice" onclick="letterClicked('Q', this);">Q</button>
+		  <button class="letterchoice" onclick="letterClicked('R', this);">R</button>
+		  <button class="letterchoice" onclick="letterClicked('S', this);">S</button>
+		  <button class="letterchoice" onclick="letterClicked('T', this);">T</button>
+		  <button class="letterchoice" onclick="letterClicked('U', this);">U</button>
+		  <button class="letterchoice" onclick="letterClicked('V', this);">V</button>
+		  <button class="letterchoice" onclick="letterClicked('W', this);">W</button>
+		  <button class="letterchoice" onclick="letterClicked('X', this);">X</button>
+		  <button class="letterchoice" onclick="letterClicked('Y', this);">Y</button>
+		  <button class="letterchoice" onclick="letterClicked('Z', this);">Z</button>
+		</div><!-- .buttons -->
+	</div><!-- .letterchoices -->
+</div>
+<div class="row">
+<div class="col-md-12">
+	<div class="count">
+		<div class="countbox"><span id="wins">0</span> wins</div>
+		<div class="countbox"><span id="losses">10</span> lives/10</div>
+	</div><!-- boxholdingwords -->
+</div>
+</div><!-- .row -->
+
+<div class="row">
+<div class="col-md-12">
+	<div class="boxholdingwords centerit">
+		<div class="guessbox">
+			<div id="word" class="letterlist">
+			</div><!-- word1 -->
+		</div><!-- .guessbox -->
+	</div><!-- boxholdingwords -->
+</div>
+</div><!-- .row -->
+
+<div class="row">
+<div class="col-md-12">
+	<div id="notify">
+		<div id="worrd">
+
+
+    <script type="text/javascript" src="game.js"></script>
+  </body>
+</html>

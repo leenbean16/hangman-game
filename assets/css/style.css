@@ -1,0 +1,133 @@
+		body{
+			background-image: url("mona.png");
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+    		background-position: bottom; 
+			font-family: 'Finger Paint', cursive;
+			font-size: 2em;
+			color:#3DB8A9;
+
+		}
+		.centerit{
+			text-align:center;
+		}
+		button{
+  			display: inline-block;
+ 			padding: 5px 10px;
+  			font-size: 24px;
+  			cursor: pointer;
+  			text-align: center;
+  			text-decoration: none;
+  			outline: none;
+  			color: #fff;
+  			background-color: #FEB096;
+  			border: none;
+  			border-radius: 5px;
+  			box-shadow: 0 9px #EDCFC1;
+  			margin-bottom: 10px;
+  			font-family: 'Finger Paint', cursive;
+		}
+
+		button:hover {
+			background-color: pink;
+		}
+
+		button:active {
+			background-color: #fff;
+			box-shadow: 0 5px #666;
+			transform: translateY(4px);
+		}
+
+		.letterchoices{
+			width: 100%;
+			clear:both;
+			display: block;
+			overflow: hidden;
+		}
+		.buttons{
+			position: relative;
+			display: inline-block;
+			margin: 0px auto;
+			clear:both;
+		}
+		.letterchoces button{
+			float:left;
+		}
+		
+		.row{
+			display: inline-block;
+			clear:both;
+			width: 100%;
+			position:relative;
+			text-align: center;
+		}
+		
+		.col-md-12{
+			position:relative;
+		}
+		
+		.aletter{
+			width: 50px;
+			height: 50px;
+			float:left;
+			margin-right: 20px;
+			display: inline-block;
+			border-bottom: 2px solid #EC8F67;
+		}
+		.aletter:last-of-type{
+			margin-right: 0px;
+		}
+		.boxholdingwords{
+			
+		}
+		.guessbox{
+			border:2px solid #EC8F67;
+			padding: 50px 20px 10px 20px;
+			display: inline-block;
+			margin: 0px auto;
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			-o-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+
+
+.scroll-right {
+ overflow: hidden;
+ position: relative;
+}
+.scroll-right p {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ -moz-transform:translateX(-100%);
+ -webkit-transform:translateX(-100%);	
+ transform:translateX(-100%);	
+ -moz-animation: scroll-right 15s linear infinite;
+ -webkit-animation: scroll-right 15s linear infinite;
+ animation: scroll-right 15s linear infinite;
+}
+@-moz-keyframes scroll-right {
+ 0%   { -moz-transform: translateX(-100%); }
+ 100% { -moz-transform: translateX(100%); }
+}
+@-webkit-keyframes scroll-right {
+ 0%   { -webkit-transform: translateX(-100%); }
+ 100% { -webkit-transform: translateX(100%); }
+}
+@keyframes scroll-right {
+ 0%   { 
+ -moz-transform: translateX(-100%);
+ -webkit-transform: translateX(-100%);
+ transform: translateX(-100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(100%);
+ -webkit-transform: translateX(100%);
+ transform: translateX(100%); 
+ }
+}
+
