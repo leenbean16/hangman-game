@@ -67,6 +67,7 @@ function failedTry(){
 		alert("The word was " + currentWord);
 		wrongCount = 0;
 		lives--;
+		losses.innerText = lives;
 		if(lives <= 0){
 			lives = 10;
 			losses.innerText = lives;
